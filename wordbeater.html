@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wb.css">
+</head>
+
+
+<body>
+    <div id='diff'>
+        <h2>Select Difficulty level</h2>
+
+        <form id='sel'>
+            <input type='radio' id='easy' value='easy' name='dif' checked=true>
+            <label for="easy">EASY</label><br><br>
+            <input type='radio' id='normal' value='normal' name='dif'>
+            <label for="easy">NORMAL</label><br><br>
+            <input type='radio' id='hard' value='hard' name='dif'>
+            <label for="easy">HARD</label><br><br>
+            <button type="submit" id='sub' onclick='difficulty()'>Play</button>
+        </form>
+
+    </div>
+
+    <div id='over'>
+        <h2>GAME OVER </h2>
+        <h3>Your Score: <br><br><span id='scors'>0</span></h3><br><br>
+        <button id='bck' onclick='main()'>Back To Main Menu</button>
+
+    </div>
+
+
+
+
+
+
+    <div id='container'>
+        <header id='head'>
+            <h2>SPEED TYPE</h2>
+        </header>
+        <div id='words'></div>
+
+        <div id='input'>
+            <input type='text' id='inp' />
+        </div>
+
+        <div id='time'>Time: <span id='sec'></span>
+            <div id='score'>Score: <span id='scor'> 0</span></div>
+        </div>
+
+
+        <div id='score'></div>
+        <div id='back'><button id='bck' onclick='main()'>Back To Main Menu</button></div>
+
+
+
+
+    </div>
+    <script src='wb.js'></script>
+</body>
+
+</html>

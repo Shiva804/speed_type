@@ -1,0 +1,186 @@
+    body {
+        background-color: #222222;
+    }
+    
+    #container {
+        display: none;
+    }
+    /* #container1 {
+        display: block;
+    } */
+    /* #diff1 {
+        display: none;
+    }
+     */
+    
+    #head {
+        background-color: #d7d7d8;
+        /* box-sizing: border-box; */
+        height: 100px;
+        margin-top: -10px;
+        margin-left: -20px;
+        overflow: hidden;
+    }
+    
+    #head h2 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 30px;
+        color: #333333;
+    }
+    
+    #input {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #input input {
+        height: 40px;
+        width: 400px;
+        border: black 2px solid;
+        border-radius: 5px;
+        outline: none;
+        font-size: 30px;
+    }
+    
+    #words {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    #time {
+        font-size: 40px;
+        color: white;
+        margin-left: 500px;
+        margin-top: 100px;
+        margin-right: 0px;
+        display: flex;
+    }
+    
+    #score {
+        padding-left: 330px;
+    }
+    
+    #scor {
+        padding-left: 3px;
+    }
+    
+    #scors {
+        padding-left: 3px;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        #time {
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        #score {
+            padding-left: 20px;
+        }
+        #head h2 {
+            font-size: 20px;
+        }
+    }
+    
+    #diff {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+        text-align: center;
+        height: 500px;
+        font-size: 20px;
+        width: 400px;
+        background-color: white;
+        border: black 5px solid;
+        border-radius: 10px;
+    }
+    
+    #diff h2 {
+        padding-top: 10px;
+    }
+    
+    #sub {
+        margin-top: 20px;
+        width: 70px;
+        height: 30px;
+    }
+    
+    #sel {
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    
+    #normal {
+        margin-left: 38px;
+        margin-top: 50px;
+    }
+    
+    #easy {
+        margin-left: -5px;
+    }
+    
+    #hard {
+        margin-top: 50px;
+    }
+    
+    #sub {
+        color: white;
+        background-color: black;
+        border: 2px white solid;
+        border-radius: 28px;
+        height: 60px;
+        width: 100px;
+        outline: none;
+    }
+    
+    #sub:hover {
+        background-color: white;
+        color: black;
+        border: 3px black solid;
+    }
+    
+    #color {
+        color: red;
+    }
+    
+    #bck {
+        color: white;
+        background-color: black;
+        border: 2px white solid;
+        border-radius: 28px;
+        height: 60px;
+        width: 170px;
+        font-size: 15px;
+        outline: none;
+    }
+    
+    #bck:hover {
+        background-color: white;
+        color: black;
+        border: 3px black solid;
+    }
+    
+    #back {
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    #over {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+        text-align: center;
+        height: 500px;
+        font-size: 20px;
+        width: 400px;
+        background-color: white;
+        border: black 5px solid;
+        border-radius: 10px;
+        display: none;
+    }
+    
+    #over h3 {
+        margin-top: 100px;
+    }
