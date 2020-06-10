@@ -12,13 +12,15 @@ inchoate,incontrovert,ibleinde,fatigable,
 hapless,
 ephemeral,elated,eloquent,embezzle`
 
+
+
+
 function difficulty() {
 
 
     e = document.getElementById('easy')
     n = document.getElementById('normal')
     h = document.getElementById('hard')
-    let x = 0
     if (e.checked != false) {
 
         alert('easy..6 secs will be added for each correct answer')
@@ -54,6 +56,7 @@ function random() {
     word = words[Math.floor(Math.random() * words.length)];
     word = word.trim()
     document.getElementById('words').innerHTML = word
+    words = words.filter(e => e !== word)
 
 
 }
