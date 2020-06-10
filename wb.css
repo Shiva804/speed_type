@@ -46,6 +46,10 @@
         font-size: 30px;
     }
     
+    #inp {
+        font-family: 'Limelight', cursive;
+    }
+    
     #words {
         font-size: 40px;
         font-family: 'Limelight', cursive;
